@@ -36,7 +36,7 @@ public class ChatRoomAdapter extends ArrayAdapter<EMChatRoom> {
 
 	private LayoutInflater inflater;
 	private String addChatRoomString;
-
+//构造方法
 	public ChatRoomAdapter(Context context, int res, List<EMChatRoom> groups) {
 		super(context, res, groups);
 		this.inflater = LayoutInflater.from(context);
